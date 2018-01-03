@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/main.css">
+    <title>BitCoin Prices</title>
+</head>
+<body>
+    <div class="tbContainer">
+    <table col="6" row="2">
+        <tr>
+        <th></th>
+        <th>Bitcoin</th>
+        <th>BTC/USD</th>
+        <th>BTC/EUR</th>
+        <th>BTC/GBP</th>
+        <th>BTC/JPY</th>
+        <th>BTC/CAD</th>
+    </tr>
+    <tr>
+        <th>Prices</th>
+        <td class="bitcoin"></td>
+        <td class="btcUSD"></td>
+        <td class="btcEUR"></td>
+        <td class="btcGBP"></td>
+        <td class="btcJPY"></td>
+        <td class="btcCAD"></td>
+    </tr>
+    </div>
+</table>
+    <div>        
+        <button class="refresh">Refresh Table</button>
+        <button class="newPrice">New Price</button>
+    </div>    
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/getPrices.js"></script>
+</body>
+</html>
